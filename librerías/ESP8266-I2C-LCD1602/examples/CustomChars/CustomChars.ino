@@ -5,9 +5,9 @@
   // Modified for ESP8266 with GPIO0-SDA GPIO2-SCL and LCD1206 display
   // edit library and change Wire.begin() by Wire.begin(sda,scl) or other GPIO's used for I2C
   // and access from lcd.begin(sda,scl)
-  
+
 #include <Wire.h>
-#include <LiquidCrystal_I2C.h>
+#include <LiquidCrystal_I2C_ESP.h>
 
 uint8_t bell[8]  = {0x4, 0xe, 0xe, 0xe, 0x1f, 0x0, 0x4};
 uint8_t note[8]  = {0x2, 0x3, 0x2, 0xe, 0x1e, 0xc, 0x0};
@@ -19,7 +19,7 @@ uint8_t cross[8] = {0x0, 0x1b, 0xe, 0x4, 0xe, 0x1b, 0x0};
 uint8_t retarrow[8] = {	0x1, 0x1, 0x5, 0x9, 0x1f, 0x8, 0x4};
 
 // Set the LCD address to 0x27 for a 16 chars and 2 line display
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+LiquidCrystal_I2C_ESP lcd(0x27, 16, 2);
 
 void setup()
 {
@@ -70,4 +70,3 @@ void loop()
 {
 	// Do nothing here...
 }
-

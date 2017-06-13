@@ -5,22 +5,22 @@
   // Modified for ESP8266 with GPIO0-SDA GPIO2-SCL and LCD1206 display
   // edit library and change Wire.begin() by Wire.begin(sda,scl) or other GPIO's used for I2C
   // and access from lcd.begin(sda,scl)
-  
+
 /**
  * Displays text sent over the serial port (e.g. from the Serial Monitor) on
  * an attached LCD.
  */
-#include <Wire.h> 
-#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+#include <LiquidCrystal_I2C_ESP.h>
 
 // Set the LCD address to 0x27 for a 16 chars and 2 line display
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+LiquidCrystal_I2C_ESP lcd(0x27, 16, 2);
 
 void setup()
 {
 	lcd.begin(0,2);
 	lcd.backlight();
-  
+
 	// Initialize the serial port at a speed of 9600 baud
 	Serial.begin(9600);
 }
