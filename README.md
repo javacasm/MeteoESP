@@ -8,7 +8,8 @@ Estación meteorológica con ESP Wemos D1 Mini
 
 ## V1
 
-LCD I2C 16x2 [Librería](https://github.com/HobbytronicsPK/ESP8266-I2C-LCD1602) (renombrando la clase )
+LCD I2C 16x2 [Librería](https://github.com/HobbytronicsPK/ESP8266-I2C-LCD1602) ([renombrando la clase](https://github.com/javacasm/ESP8266-I2C-LCD1602) para evitar conflictos)
+
 Sensores:
 * [MQ7](https://www.sparkfun.com/products/9403): ¿3.3V?, Concentración de CO (analógico) ([Ejemplo](https://learn.sparkfun.com/tutorials/hazardous-gas-monitor?_ga=2.44603748.1795368896.1497390302-1920885004.1497390302))
 * DHT22: 5V, temperatura y humedad
@@ -27,3 +28,4 @@ ADS1115: ADC externo
 ## Referencias
 
 * [Sensores de gases](https://playground.arduino.cc/Main/MQGasSensors)
+* [Estación de medida de  calidad del aire](https://biohackingitm.wordpress.com/2017/06/13/avences-en-nuestra-central-de-monitoreo-de-calidad-de-aire-de-bajo-costo-con-sensores-mq-parte-i/)
