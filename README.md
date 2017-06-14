@@ -1,6 +1,6 @@
 # MeteoESP
 
-Estación meteorológica con ESP Wemos D1 Mini
+Estación meteorológica con [ESP Wemos D1 Mini](http://escapequotes.net/wemos-d1-mini-pins-and-diagram/)
 
 ## A tener en cuenta....
 
@@ -29,3 +29,7 @@ ADS1115: ADC externo
 
 * [Sensores de gases](https://playground.arduino.cc/Main/MQGasSensors)
 * [Estación de medida de  calidad del aire](https://biohackingitm.wordpress.com/2017/06/13/avences-en-nuestra-central-de-monitoreo-de-calidad-de-aire-de-bajo-costo-con-sensores-mq-parte-i/)
+
+* [ESP Wemos D1 Mini](http://escapequotes.net/wemos-d1-mini-pins-and-diagram/)
+
+![Esquema](http://escapequotes.net/wp-content/uploads/2016/02/d1-mini-esp8266-board-sh_fixled.jpg)
